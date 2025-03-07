@@ -1,0 +1,23 @@
+{
+	"Componente Funcional": {
+		"scope": "javascript",
+		"prefix": "compfunc",
+		"body": [
+			"import React from 'react'",
+			"import {Text, Button, SafeAreaView, Platform} from 'react-native'",
+			"import Estilo from './estilo'",
+			"",
+			"export default props => {",
+			"",
+			"    return (",
+			"        <SafeAreaView style={Estilo.centroItem}>",
+			"            <Text style={Estilo.txtG}>",
+			"                $1",
+			"            </Text>",
+			"        </SafeAreaView>",
+			"    )",
+			"}"
+		],
+		"description": "Log output to console"
+	}
+}
